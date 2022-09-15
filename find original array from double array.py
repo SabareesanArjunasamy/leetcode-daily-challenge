@@ -19,8 +19,8 @@ def findOriginalArray( changed):
         return result
     
 changed = [1,3,4,2,6,8]
-print(findOriginalArray(changed))
+print(findOriginalArray(changed)) #expected Output [1,3,4] in any order
 changed = [6,3,0,1]
-print(findOriginalArray(changed))
+print(findOriginalArray(changed)) #expected Output []
 changed = [1]
-print(findOriginalArray(changed))
+print(findOriginalArray(changed)) #expected Output []
