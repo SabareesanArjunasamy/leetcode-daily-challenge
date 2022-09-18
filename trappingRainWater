@@ -1,0 +1,16 @@
+def trap(height):
+    heightLen = len(height)
+    bigLeft = [height[0]] * heightLen
+    bigRight = [height[-1]] * heightLen
+
+    for i in range(1, heightLen):
+        bigLeft[i] = max(bigLeft[i-1], height[i])
+        bigRight[-i-1] = max(bigRight[-i], height[-i-1])
+
+    return sum(min(bigLeft[i], bigRight[i]) - height[i] for i in range(heightLen))
+
+
+height = [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]
+print(trap(height))
+height1 = [4, 2, 0, 3, 2, 5]
+print(trap(height1))
