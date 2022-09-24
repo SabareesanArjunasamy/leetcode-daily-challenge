@@ -9,5 +9,5 @@ def reverseWords(s) -> str:
 
 s = "Let's take LeetCode contest"
 print(reverseWords(s))
-s = "God Ding"
+s = "Gods Ding"
 print(reverseWords(s))
