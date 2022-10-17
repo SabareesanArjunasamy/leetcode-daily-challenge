@@ -13,6 +13,6 @@ def maximumScore(nums, multipliers) -> int:
 nums,multipliers  = [1,2,3],[3,2,1]
 print(maximumScore(nums,multipliers))
 # expected Output: 14
-nums,multipliers  = [-5,-3,-3,-2,7,1],[-10,-5,3,4,6]
-print(maximumScore(nums,multipliers))
+nums,multipliers2  = [-5,-3,-3,-2,7,1],[-10,-5,3,4,6]
+print(maximumScore(nums,multipliers2))
 # expected Output: 102
