@@ -7,3 +7,7 @@ def halvesAreAlike(s: str) -> bool:
         if s[-i-1] in vowels:
             b += 1
     return a == b
+
+
+print(halvesAreAlike('book'))
+print(halvesAreAlike('hegood'))
