@@ -1,3 +1,7 @@
+import math
+from typing import List
+
+
 def minimumAverageDifference(self, nums: List[int]) -> int:
     l = [-1]*len(nums)
     r = [-1]*len(nums)
